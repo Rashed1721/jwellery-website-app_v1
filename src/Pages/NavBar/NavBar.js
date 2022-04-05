@@ -5,14 +5,13 @@ import logo from '../../images/logo2.jpg'
 const NavBar = () => {
     return (
         <div>
-
             <Navbar style={{ backgroundColor: "white" }} expand="lg">
                 <Container>
                     <Navbar.Brand href="/">
                         <img src={logo} height="100" alt="" />
                     </Navbar.Brand>
                     <Navbar.Brand href="/">
-                        <h1 style={{ color: 'lightpink' }}>Narsindhi <br /> Store</h1>
+                        <h3 style={{ color: 'lightpink', marginBottom: -30, fontSize: 23 }}>BANGLADESH </h3> <br /> <h4 style={{ marginTop: 0, color: 'lightpink', fontSize: 21 }}> STORE</h4>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -22,7 +21,7 @@ const NavBar = () => {
                                 <NavDropdown className='px-3  text-black' title="Jwellery" id="basic-nav-dropdown">
                                     <NavDropdown.Item href="/gold">Gold</NavDropdown.Item>
                                     <NavDropdown.Item href="/silver">Silver</NavDropdown.Item>
-                                    <NavDropdown.Item href="/diamond">Diamond</NavDropdown.Item>
+                                    <NavDropdown.Item href="/diamonds">Diamond</NavDropdown.Item>
 
                                 </NavDropdown>
                                 <NavDropdown className='px-3  text-black' title="Jwellery Accessories" id="basic-nav-dropdown">

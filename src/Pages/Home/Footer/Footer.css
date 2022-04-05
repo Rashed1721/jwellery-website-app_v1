@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 370px;
     background-color: #f7ece7;
     background-blend-mode: overlay;
 }
@@ -14,7 +14,7 @@
 
 @media only screen and (max-width:600px) {
     .footer-container {
-        height: 770px
+        height: 900px
     }
 }
 

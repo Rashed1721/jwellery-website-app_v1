@@ -8,7 +8,7 @@ const Catagories = () => {
         <Container>
             <h1 style={{ fontFamily: 'Dancing Scripts,cursive', marginBottom: 100, marginTop: 100 }}>Top Catagories</h1>
 
-            <div className=' item-container'>
+            <div className=' item-container    mx-auto'>
 
 
                 {/* div1 for tems */}

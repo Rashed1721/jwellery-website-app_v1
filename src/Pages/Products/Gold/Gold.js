@@ -27,8 +27,8 @@ const Gold = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <h2>Our Gold Products</h2>
-            <Container style={{ marginLeft: 40, marginTop: 30 }} className='row mb-5 body'>
+            <h2>Our  <span style={{ color: "gray" }}>Gold </span>    Products</h2>
+            <div style={{ width: "90%" }} className='row mb-5 body mx-auto'>
                 <Col sm={6} md={4}>
                     <div>
                         <img className='img-fluid mt-5 box ' height="300px" src={anklet} alt="" />
@@ -105,7 +105,7 @@ const Gold = () => {
                     <img className='img-fluid  mt-5  box ' src={others} alt="" />
                     <button type="button" className="btn btn-outline-secondary mt-4"><h5>Others</h5></button>
                 </Col>
-            </Container>
+            </div>
             <Footer></Footer>
         </div>
     );

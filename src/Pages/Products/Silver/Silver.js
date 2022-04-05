@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container } from 'react-bootstrap';
 import NavBar from '../../NavBar/NavBar';
-import img from '../../../images/bg-3.jpg'
 import Footer from '../../Home/Footer/Footer';
 import anklet from '../../../images/silver/anklet.png'
 import bangle from '../../../images/silver/bangle.png'
@@ -15,7 +14,7 @@ const Silver = () => {
         <div>
             <NavBar></NavBar>
             <h1> Our Silver Products</h1>
-            <Container style={{ marginLeft: 40, marginTop: 30 }} className='row mb-5 ml-5'>
+            <Container style={{ width: "90%" }} className='row mb-5 ml-5  mx-auto'>
                 <Col sm={6} md={4}>
                     <img className='img-fluid mt-5  box' src={anklet} alt="" />
                     <button type="button" className="btn btn-outline-secondary mt-4"><h5>Anklet</h5> </button>

@@ -9,7 +9,7 @@ const ProductShow = () => {
         <div>
             <NavBar></NavBar>
 
-            <div className='row'>
+            <div style={{ width: "90%" }} className='row mb-5 body mx-auto'>
                 <ProductDetail></ProductDetail>
                 <ProductDetail></ProductDetail>
                 <ProductDetail></ProductDetail>

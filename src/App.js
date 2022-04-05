@@ -5,7 +5,7 @@ import { Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Gold from './Pages/Products/Gold/Gold';
 import Silver from './Pages/Products/Silver/Silver';
-import Diamond from './Pages/Products/Diamond/Diamond';
+import Diamonds from './Pages/Products/Diamonds/Diamonds';
 import AboutUs from './Pages/Home/AboutUs/AboutUs';
 import OurService from './Pages/OurService/OurService';
 import JwelleryBag from './Pages/Accessories/JwelleryBag/JwelleryBag';
@@ -24,7 +24,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/gold" element={<Gold />} />
           <Route path="/silver" element={<Silver />} />
-          <Route path="/diamond" element={<Diamond />} />
+          <Route path="/diamonds" element={<Diamonds></Diamonds>} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/ourservice" element={<OurService />} />
           <Route path="/jwellerybag" element={<JwelleryBag />} />

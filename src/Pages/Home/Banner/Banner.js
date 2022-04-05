@@ -1,9 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import logo1 from '../../../images/logo1.jpg'
-import Banner1 from '../../../images/banner1.jpg'
 import Banner2 from '../../../images/banner2.png'
-import Banner3 from '../../../images/banner3.jpg'
+import banner5 from '../../../images/banner-5.jpg'
+import bannerthree from '../../../images/banner-3.jpg'
 
 const Banner = () => {
 
@@ -16,38 +15,38 @@ const Banner = () => {
                     <img
                         className="d-block w-100 h-500"
                         height={500}
-                        src={Banner1}
+                        src={Banner2}
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h2 style={{ color: "rgb(101 85 85)" }}>Welcome </h2>
+                        <h3 style={{ color: "rgb(101 85 85)" }}>To Bangladesh Store</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 h-500"
                         height={500}
-                        src={Banner2}
+                        src={banner5}
                         alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h2 style={{ color: "rgb(101 85 85)" }}>Welcome </h2>
+                        <h3 style={{ color: "rgb(101 85 85)" }}>To Bangladesh Store</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 "
                         height={500}
-                        src={Banner3}
+                        src={bannerthree}
                         alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h2 style={{ color: "rgb(101 85 85)" }}>Welcome </h2>
+                        <h3 style={{ color: "rgb(101 85 85)" }}>To Bangladesh Store</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
